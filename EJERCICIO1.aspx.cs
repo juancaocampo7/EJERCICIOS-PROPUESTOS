@@ -16,12 +16,12 @@ namespace EJERCICIOS_PROPUESTOS
 
         protected void btncalcular_Click(object sender, EventArgs e)
         {
-            //VARIABLES 
-               double  cantidad, cantdolares;
-                   //DATOS DE ENTRADA
-                        cantidad = Convert.ToDouble(txtcantpesosco.Text);
+            //VARIABLES
+                int cantdolares, cantidad;
+                    //DATOS DE ENTRADA
+                        cantidad = Convert.ToInt32(txtcantpesosco.Text);
                               //PROCEDMIENTO 
-                                    cantdolares = cantidad / 3.882;
+                                    cantdolares = cantidad / 3768;
                                         //DATOS DE SALIDA 
                                              lbldinerodol.Text = System.Convert.ToString(cantdolares);
         }
